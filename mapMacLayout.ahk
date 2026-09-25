@@ -102,10 +102,10 @@ IsRemoteSessionActive() {
 #+Left::Send "^+{Left}"
 #+Right::Send "^+{Right}"
 
-#Up::Send "^{Up}"
-#Down::Send "^{Down}"
-#+Up::Send "^+{Up}"
-#+Down::Send "^+{Down}"
+#Up::Send "!{Up}"
+#Down::Send "!{Down}"
+#+Up::Send "!+{Up}"
+#+Down::Send "!+{Down}"
 
 ; Delete behavior
 #Backspace::Send "^{Backspace}"
